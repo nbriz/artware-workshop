@@ -9,6 +9,7 @@ body {
   margin: 0;
   background-color: #bcbcbc;
   font-family: sans-serif;
+  line-height: 1.3rem;
 }
 
 body {
@@ -38,22 +39,6 @@ header img {
   width: 32px;
   height: 32px;
   image-rendering: pixelated;
-}
-
-.content {
-  max-width: 680px;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-.circle-crop {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  display: block;
-  border: 4px inset white;
-  margin: 10px;
 }
 
 blockquote {
@@ -87,4 +72,31 @@ blockquote cite {
 a,
 a:visited {
   color: blue;
+}
+
+.content {
+  max-width: 680px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.circle-crop {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  border: 4px inset white;
+  margin: 10px;
+}
+
+.flex-row {
+  margin: 30px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.flex-row img {
+  width: 300px;
+  border: 4px inset white;
 }
