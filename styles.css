@@ -96,6 +96,12 @@ a:visited {
   gap: 20px;
 }
 
+@media (max-width: 680px) {
+  .flex-row {
+    flex-direction: column;
+  }
+}
+
 .flex-row img {
   width: 300px;
   border: 4px inset white;
