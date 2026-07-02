@@ -1,3 +1,5 @@
+**NOTE**: these are notes from the 2020 version of the workshop
+
 # FLOSS
 
 ## Free/Libre Open Source Software
