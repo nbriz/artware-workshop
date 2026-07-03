@@ -2,11 +2,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
   margin: 0;
+  padding: 0;
   background-color: #bcbcbc;
   font-family: sans-serif;
   line-height: 1.3rem;
@@ -15,6 +18,12 @@ body {
 body {
   border: 4px inset white;
   min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 @keyframes rainbow {
@@ -40,6 +49,59 @@ header img {
   height: 32px;
   image-rendering: pixelated;
 }
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 2px solid #888;
+}
+
+nav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+nav > * {
+  padding: 4px 8px;
+  border: 2px outset #b0b0b0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav > :last-child {
+  margin-left: auto;
+}
+
+nav > #info {
+  border: none;
+  font-weight: normal;
+}
+
+main {
+  flex-grow: 1;
+  min-height: 0;
+  margin: 10px;
+  border: 4px inset #747b7a;
+  border-width: 4px;
+  background-image:
+    linear-gradient(45deg, #ccc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ccc 75%),
+    linear-gradient(45deg, transparent 75%, #ccc 75%),
+    linear-gradient(45deg, #ccc 25%, #fff 25%);
+  background-size: 10px 10px;
+  background-position: 0 0, 0 0, -5px -5px, 5px 5px;
+}
+
+/*  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  */
+/* FOR NOTES PAGES */
+/*  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  */
 
 blockquote {
   margin: 0;

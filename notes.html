@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <!-- your metadata goes here in the "head" -->
+    <title>Artware Workshop</title>
+    <meta name="author" content="Nick Briz">
+    <meta name="description" content="Notes from netizen.org's artware (software art) workshop.">
+    <link rel="icon" href="images/icon.png">
+
+    <!-- metadata for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!-- "open graph" metadata for social media posts -->
+    <meta property="og:title" content="Artware Workshop">
+    <meta property="og:description" content="Notes from netizen.org's artware (software art) workshop.">
+    <meta property="og:image" content="https://artware.app/images/icon.png">
+    <meta property="og:url" content="https://artware.app">
+    <meta property="og:type" content="website">
+    
+    <!-- import our CSS code -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <header>
+      <div>
+        <a href="index.html">
+          <img src="images/icon.png" alt="artware icon">
+        </a>
+      </div>
+      <h3>artware workshop notes</h3>
+    </header>
+    
+    <section class="content">
+      <h1>introduction</h1>
+      
+      <p>
+        <img src="images/nick.png" alt="glitchy photo of Nick Briz" class="circle-crop" style="float:left">
+        
+        <img src="images/jon.jpg" alt="glitchy photo of Jon Satrom" class="circle-crop" style="float:right">
+        
+        Hi! We're <a href="https://nickbriz.com/" target="_blank">Nick Briz</a> and <a href="https://jonsatrom.com/" target="_blank">jon.satrom</a>, we're part of <a href="https://netizen.org" target="_blank">netizen.org</a>, a collective of new media artists, educators, and activists on a mission to reestablish human agency in the information age through public lectures, digital tools, online events and workshops like this one!
+      </p>
+      
+      <p>
+        We're going to be creating work for the World Wide Web! While most folks engage with the Web through corporate platforms, it's important to remember that the Web is a digital public commons: no one owns the Web and anyone can contribute to it, all you need is a browser (there are many), a server (there are many of these as well) and a computer connected to the Internet!
+      </p>
+      
+      <img src="images/internet.gif" alt="retro dial-up connection gif" style="margin: 0 10px; width: 190px; float:left">
+      
+      <p>
+        We'll be creating our own web apps outside the walled gardens of big tech using <a href="https://netnet.studio" target="_blank">netnet.studio</a>  ◕ ◞ ◕ an open-source browser-based hypermedia maker-space for fully realizing the Web’s creative potential! netnet is both a place for learning and making, in this workshop we'll be using it mostly to <i>make</i>, but we encourage you to explore its many interactive lessons afterwards starting with the <a href="https://netnet.studio/?tutorial=orientation" target="_blank">Orientation</a> tutorial!
+      </p>
+      
+      <br><br><br>
+      <h1>net.art + artware</h1>
+      
+      <p>
+        We're going to be creating our own experimental web based drawing apps. We'll be <i>drawing</i> inspiration from work at the intersection of two new media art sub-genres: internet art and software art. The former refers to art that embraces the Internet as a creative medium. Like the Web itself, it began in the mid 1990s, the first wave of internet artists is often referred to as the net.art movement.
+      </p>
+
+      <blockquote>
+        <p>
+          <img src="images/book.gif" alt="animated gif of a book turning pages" style="float:left; margin-right: 10px;"> <b>Dig Deeper!</b> To learn more, check out the interactive tutorials on this topic on netnet.studio: <a href="https://netnet.studio/?tutorial=net-art-1" target="_blank">net.art (part 1) when artists discovered HTML</a> as well as <a href="https://netnet.studio/?tutorial=net-art-2" target="_blank">net.art (part 2) from ASCII Art to Form Art</a>.
+        </p>
+      </blockquote>
+      
+      <p>
+        Software art (aka artware) is an umbrella term for all manner of experimental software projects by artists, hackers and other creative technologists that explore software (apps, programs, exectubales, etc) as a creative medium. Where mainstream software is typically aimed at providing some utility for the user, artware departs from this convention to explore a number of other themes and concerns.
+      </p>
+      
+      <blockquote>
+        <p>
+          <img src="images/book.gif" alt="animated gif of a book turning pages" style="float:left; margin-right: 10px;"> <b>Dig Deeper!</b>  You can read more about artware and explore loads of examples in our <a href="software-art.html">Software Art: Notes and Examples</a> page.
+        </p>
+      </blockquote>
+      
+      <p>
+        Not all artware is web-based and not all net.art is software, but the intersection of the two is an exciting one, let's look at a couple examples:
+      </p>
+      
+      <div class="flex-row">
+        <a href="https://www.youtube.com/watch?v=TzcT0ra9NYw" target="_blank"><img src="images/emoji-ink.gif" alt="short animated gif of emoji.ink app"></a>
+        <p>
+          <a href="https://emoji.ink/" target="_blank">emoji.ink</a> by <a href="https://tig.ht/" target="_blank">tig.ht</a> (aka <a href="https://yungjake.com/" target="_blank">Yung Jake</a> and <a href="https://vincemckelvie.com/" target="_blank">Vince Mckelvie</a>) is as much a "software art" piece as it is a tool for creating experimental drawings entirely out of emojis. You can read more about it in the New York Times article <a href="https://www.nytimes.com/2017/07/26/style/emoji-portraits-yung-jake.html" target="_blank">Digital Artist Yung Jake Scores With Emoji Portraits</a> as well as from watching this <a href="https://www.youtube.com/watch?v=TzcT0ra9NYw" target="_blank">video</a>.
+        </p>
+      </div>
+      
+      <div class="flex-row">
+        <p>
+          Even more meta, the project <a href="https://poxparty.com/InterFacePainter/index.html" target="_blank">InterFace Painter</a> by <a href="https://poxparty.com" target="_blank">Pox</a> (aka <a href="jonsatrom.com/">jon.satrom</a> and <a href="https://bensyverson.com/" target="_blank">Ben Syverson</a>) is an app for creating apps by drawing their interfaces, what the duo playfully refers to as "expressive UI". It's part of a suite of experimental software art projects aimed at challenging the tech industry's core values. You can watch them <a href="https://www.youtube.com/watch?v=nzaqgLnHAb8" target="_blank">demo InterFace Painter and other pieces</a> in their satirical start-up presentation at the Notacon hacker conference.
+        </p>
+        <a href="https://www.youtube.com/watch?v=nzaqgLnHAb8" target="_blank"><img src="images/interface-painter.gif" alt="short animated gif of interface painter app"></a>
+      </div>
+  
+      <p>
+       These are both examples of a popular artware sub-genre: the experimental drawing app. There are of course numerous different apps out there for creating digital drawings on a computer, like Adobe Illustrator, Canva, Procreate, etc. These would be considered traditional utilitarian software, the goal is to provide the user the best digital drawing experience, often modeled on traditional drawing tools, this is especially the case for apps like <a href="https://procreate.com/" target="_blank">Procreate</a> which aim to mimic physical brushes and strokes (an approach to design known as skeuomorphism). This is a very different goal from what drives artists making software art or artware, who are motivated instead by other experimental aims and conceptual questions. While many of the references in our <a href="software-art.html">Software Art: Notes and Examples</a> are practically usable they're less concerned with creating something that is "user friendly" or "works well" and more interested in pushing the boundaries of what we <i>imagine</i> a drawing tool is for and how it should work.
+      </p>
+      
+      <br><br><br>
+      <h1>let's code!</h1>
+      
+      <p>
+        As artists, when exploring new domains, we often start by copying other artists. We'll begin by recreating simple versions of emoji.ink and InterFace Painter. Then we'll mash these up and remix them into something new.
+      </p>
+      
+      <h3>GitHub (optional free hosting)</h3>
+      
+      <p>
+       Towards the end of the workshop we'll use <a href="https://github.com/" target="_blank">GitHub</a> to easily version (keep track of changes) our project and publish it work to the Web. If you haven't already, we recommend creating a free account. That said, you don't technically need GitHub (or any account) to publish work to the Web, we could run our own servers <a href="https://homebrewserver.club/" target="_blank">at home</a> (but that's outside the scope of this workshop).
+      </p>
+      
+      <h3>netnet.studio (code editor)</h3>
+      
+      <p>
+        As mentioned earlier, we'll be using <a href="https://netnet.studio" target="_blank">netnet.studio</a> to write our code, if you haven't yet, visit that link and introduce yourself to netnet! We specifically designed this platform for artists and designers exploring the web as a creative medium for the first time, but here again it's important to realize that you don't <i>technically</i> need this, or any speicifc app, to write code (you could just use paper and pencil, so long as you can <a href="https://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank">OCR</a> it and get it on a server).
+      </p>
+      
+      <h3 id="demos">code demos</h3>
+      
+      <p>
+        We're going to build out our artware from scratch one line at a time. Along the way we'll point out different <i>check-points</i> which are documented in the demos below. There are also demos for possible <i>branches</i>, or change in directions, which we won't be covering during the workshop, but which you might want to explore on your own. These demos are not only editable but also annotated, meaning netnet can guide you through the important parts in an interactive lesson before you remix them.
+      </p>
+      
+      <ul>
+        <li>
+          <a href="https://netnet.studio/#demo/eJyNVmtP20gU/Ssjr1RaYRIojxRKkehCC7RAS2FZtqlWE3scT+LMODPjhLTqf99zZ5wQAx9WqkRl39zHOeee61/RUMyivY3Om831jc7O1s727nocKT4S0V7EjZtyI9Y2ojhyvG+jPVUVRRwVfKYrh4BUJ8O1QmQOAYlO6Td/0N+2OJvuDtzxp/7Pw/OrtN35cHsz2dFfXPZ+43I3P+n0U33c4bIsL4rhatv8dXR3fTj59vFvsXs6+eyOvr7eXtVflL0crw7O22rMr9J/3tj07mh0k3wcXJ58yIsje3Fh5dbd5Y24KN3omn8+3Tw8732dDi43O9mlOn+trl5np3enxflwcne7vvVh9zZJ7PFxaW4mh+c/zfuqHHfGg+PLrbPOmE9Wx72jnavT49H23d39WW9rONj5c/1wp795Mi5Oxp++rP95e3/xsei/e4dZpcp0tPf9V5TppFrA4sQ9gXIijFixjLNulIui0GyqTZF2I2aHwiV5zFwumJWjshDWMeuAslR9VmqpHMu08e/FfSmMHAnleMFSw6cUwsuSTcVKUbARHwomlQ9VKMuscExnLBUjbVtEl3QF0dEXzmf3ZUQa/Y5/Ld6NODKIQlAV/KSe5fvGj8Uo17m0rJBKUO6T6/PPjNhleDjNuUMvLOHohiu23zuoM+23ewctdqpCPEKsM1XiKoNgrRwiWGWppTrexkzwJGduVkrKNqMwK62zVBSpdSkUxe9T7YMXhYMUX/Td2/22f4CQFGAnhbaNqHYzrMWucxDDoGegp2YslVmGB2hnKFVqiRbMpZUfj8gjeMBa3WaMkSXa9LP7RBic4J8PRWAYwZ3nRVeGnfEJ/5YYWbqAGqiweDcQCYjAf5xuNeiwIXYOyxIjm3HnR0NeVCznEzShNHowAetFp6nIwFnKejMMUnJpCMk5jATXAqzeQahKpDFacQ8Ta7ZCM1cW+ZxG20lRYZjHw9Uz+z5K3hdB5QVXfV71Ra3aEormRoLinqhFgJQ1avRzCLyJyaMyDUy24u14ZxkZTzA2z02xc3xm/0e/1CqbSpf7dptwLOCkV5k01gOBnH53Z2xqJNq2evQ0e0+4qRBhPZ/I922o8VjCTwT8tv00kChi3BKeYD8ltdLQTdDQng6ewtnZN+xvz3AzW8LudQMzeAc0nBJkYaPVc6iF0SGDYF8NgQDz0LU1yWIk54zsVUCIWPAdBWwsdEvyR3NWlNwQ90t1MllAPN7aUDLh1tOiVGskVWtgg7t4X6LIeae0sYkuCuyW1Irkjk6zqqD5s0r5p5b1ja5Kr2PsIq2N7wIHEA6deivDS1+NytSO8MTsFt06tNuNani7Uey14GDa6KawmhkBgzFhb3jtKTqtCgFXgc13o5InQwiwGzX5qzeDrF09w972EnuBEb6YEWarTYC3FnSYZZ6Gpgi69SyWIpG4L4E8igzc1YjEuEa4X9O5k4Sw1rJokaU+QvhiINj9rtTNxP6aiXtOp25RpBX2/eWreZ4ld6mtgOOmTRuextIZKoT70GK3AotrrS+Gs+ELzwNpQI6/S9kIehwhgBoDh+G8lZV8Y6XuIW5s7Lx/yBr6RNJc4B41OUpyXAeiaaGu5xm6DQuFbaAbx9NUUjAwX/wu9jeHZ06Ey+8NPW6g0Q3lSGKLxaCrg7v/IG7ubxJk96DCWtGQHeSuUwuh0WH2CcIj5hPXdoJbgl7oAPvCac0DRJRvNB0xxNciV6nwkvOYL0yVFINpgdDDC2Sio7qcy6uoLydCzSPqWt5X69saB6Vm9feBl67ns/mJBSNP6dT0Hi/UXPz4XF2iqfHRdv3stuTQTqF56j9FwqV9APwlH/IaRvtq7pxQcjihHkiyVMw+VHoaTMTCBn2yJd4a1SQ+fcIXlqsNhP7jb2mIIq/lLMerdxjeudLutdsKhP8USpt+q49jVvVaUtND/FvDl59KuUnXFkaFK2JggPj9vz1c6GE3OgAylf/YpJ722/wAAP74/R+kmzGZ" target="_blank">hello world wide web</a>: our basic template and starting point.
+        </li>
+      </ul>
+      
+      <h4>generative art</h4>
+      <ul>
+        <li>
+          <a href="https://netnet.studio/#demo/eJy1WOtO5DoSfhUr82NAE/oGdANikLieaS4DHKAZOD1aOYm7Y0jsYDudbkbzFvt/f+377SOcKjtJdzMcndVKK41EOrHLVfV99VV5fnjPbObttHtb661Oq7ux2Wq1fE/QlHk7HlWmoIqtjZlgiho+YWttz/cMHWtvR+RJ4nsJncncwNpIhs9rCRsZWBDKCLd/wL9NdjqN7o5PLovX/evJZTh4aff4zW9puH95tt+Scr1/1Bt3eMDO1PETKy6+8pPtYnPrtsn2Ty/73bus9fzSu3y9pK37XnQY3PbSbDu4G48yfRP2v+UbnfhlfHW0OT1/fDBPd+fqZNDefrgNiunV0eNWezvYfIyzp+D64vRl4/dvnenD1bfJ01TfqDOZn33ZH0xO1E2rK06KzsW9ury/OO8c3h3qZOvk7DqNDqJP3X5xdL7BD/l+dPRw/dvX+ODr1fG0WP+mt1XvYpDebPTT7Vl+kr9mM925TT/J2Vkx2Fj/dNKKxg8pH0yTwcZ5ixftwW32tN8fXHdNOo2+qODgYdrJDjvT7atRr/spPExbx83LR6lf+/2Ts4H6Wqjz9fP8oHX1NEkujnvycfMsLIrn3pdBPEgmYiu9mZ4m8ejT/sNlO27efYa8czGS3s4fP7yRDPMaIsOmCNBtzDWJWCpJkPMk0kQKYmJGRlxpAz/gSarUvtqlJFZs9HnoxcZkeqfZLJnQoFn2AW3ooUcMVWNmYNE/goSK56G3V64ihVTPOpbZbpPukSJm+IqRUDFqWGRPCKjmIdHM5FkDGcVNgowBe4aLMdFgG5Z6P/0f9TfNMgokZCThgmnYVAb5R7vlt9t+u/O9DvWefZww8O+ZuRC54IbThKTMxDIiYUy5gJdGySgPwSPulmWKTbjMyyxRERGdJdwQRsO42rtCnykZ5SI0XIrVamdtEbaRJUcbxOVdMi0+gqnRiIWGxLJw+6BAiMqF9gEUQ+AsXEhS8JzYgzVnCnEh4BUYhwxG1rFCcYNLGkspArefOCRPQQ7/iwTRRKPJLKFhCQtLWMqE+ajBM2HgySdS8TEXNElmdoUzTnb5HpCDJYlEsBNwiEcIcjD0dpt8z4ffJoZcUKQXI//51z//Tax3DXLOITgqwBz4QiY0yREgckon9CZUPDNwDmTMxQIP1kuMF/whVGOCnQ8BMwWDdy+5hFykFDi3nA4FmZIpiXO2kIyuX6XDb6/PM9IX7tiQauYTgA9YC2+oIBnVGo+DmqAqWkPIIiLyNIAFzvsEI9rFD3tw1u/SAPgr7a3W6m7TvoRssI+QhbmlCVWcBslSWYSQY/hT2im3QvVwIF/Bk8RCgjSjpAzMnV6loWWJsd5tNcg9MisHVKDAKoPkMwGXao8s3YQ2SCjnXW59Q4yFgJACRdUMiPCrFghm+CsTUo0bY0A5Dxpc4kv4twaFKyJMU2mgCW1BNz+kkE/ddG6/qxzu08qqVYyy1IDvZeNh85jLxNu6owbfjtm7qGvI5yLuvUXc/fbG9wVhrNCbe+GSX+kFsEBmWPCuDLA6TQGlrsY5lgtUL4icQDALKgw6rjMW8hGfIVvdY0hSkKE0Ty1MKZ3aZwthgxywkOaaEZmr0hVd+VBTBcgZMIQIFtrkgOhA8E6w3R4Mee79CsiGBqRWiRxZy2V1WzpC+SM5cDP4VVIJjHbIiil46MxGbETzxFgraMRKBNblqg2CYhjlVvi6QVZGeIzhKerEm/2r76I0bc4WMNrytxc1yibelj9WDpG2Jqt8aKsFFQJOeytd1qi6izyG0tUOCOgCLllCNECzTF1oGFD9JWZ8HJu3EOiyGmlS0JkG5TS5cvpvLVkTbmeVrIJDlAV6CmoOvZNRpWvuphJdB/BntTLAHmCBzWgZkvlLclbB+lZEUKh4+DwvFJ1J7OoW+M5axPEsy2A4bAwSVy/cDfamu83A8SUGuX9FnUkcxPBxVn+cMGV4iJ8yqTlaW8a0eruM6Ju689ubv2BsO5D1dN4oSveg3so5Bd0mwd/lKqEwzJR1y130tjn7ZRYrH+s8lg26yqatbm3L20nNG56tVN09Ql9CmaZUr/oLg1RZ7mADm/yIQvtW0o1VOB1DLUR1LWnQfhxR5EIG6iK1CxiIfvSrJSOzxlAsJb8KYCH5m37X7/nvQuC3uwu9b4QUiqETaDCcuVnAzWyFbSMxxWmBYNpBiEreLEBV0gwRapC+6yqVytTTBTZXHHdwMiiRkYUg4KoBa5X7thxAOMKEqqofOeSqFRX/4d4CowecM5IwhhQOENu+4PKyqMVjjsPgEsgrzrey5UJtDt3sNPQcluVkXC7HLmjPnBcfcABAAgZyXdef3eeABLs2wESOQfjLiN81+aOyaHMTJHCLKr/8rAi6BDO6jHlB6+9A3t5a7mvWKsgwTKJR5Qf9X7xwI4gATYFxleSgJQnGPbQOQUu3c/HQg4/wA7QCEjplYW4YpNTJ3Rzhsuoj6VAB2HC8s2OlPctCsbK6NKtYE46NUoAooBeLCYW34Rvy/Z9nmhxSoJvY7N6/DNkv5UQzVxdpSYeUS6Ez8gzqCWZpuxYH579Wo4VhwwkNRkVTCVCgnCwaqcnPLf8hVT4KebvVQin3rbDXJLfVUupRfexC9Vh3Xb+yQzseYs1ZlNDgMkHn/1cALps5NZfuovd4O0CjlUpUQ7CltQ0v4yy0jg3fmBx683nJbR4DKzU0U0yCEye4ILpMlEJj69B3dHOGLZ3rRi4imCwoCfACxuGKhsU9c/c+N82AdbwhTzh0D12LHbAeUon3N9dogK6reHlD0llRmXuOXns/v//8ExIGBBI=" target="_blank">random emojis</a>: an introduction to randomness and other core concepts for creating generative compositions.
+        </li>
+        <li>
+          <a href="https://netnet.studio/#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" target="_blank">animation loop</a>: this demo takes the static generative composition created in the last demo and brings it to life through an animation loop, another core generative art concept.
+        </li>
+        <li>
+          <a href="https://netnet.studio/#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" target="_blank">oscillations && spirals</a>: in addition to randomness, sine and cosine functions are among the most commonly used tools for creating generative compositions.
+        </li>
+      </ul>
+      
+      <h4>interactive art</h4>
+      
+      <ul>
+        <li>
+          <a href="https://netnet.studio/#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" target="_blank">mouse events</a>: in this demo we'll take our generative composition in an interactive direction, the first step in recreating emoji.ink
+        </li>
+
+        <li>
+          <a href="https://netnet.studio/#demo/eJy1Vntz2jgQ/yo6d6Y0g8OzhSRNMwMN5NEkJAFCoOncyLZsC4zlSDIGOv3ut5LNw2nv/rsZJvHY2tXu77HST2NGVsZJtXlUr9RrlUa9UWuaRojnxDgxGoeCBMSWlIWGaUjsCeMkjIPANAK8YrGEJQ6zZ4cBcSUssJmjot6p/2VyvQyGQ9lL1q2HOrGHkS+aw2jxcDNkvBuvJ6LV8ruvs7X1VAk+Hvm1imd1zi3vvFpsr7+Nm61aK7i7/jq4GTeLEzIqknB0STi/Hzar3dGnBx51Zt+Go1EwbE68qj19tnpV13pd95/a/fHlqPI1GkW3XnzZrw9WczaptKWz+HSFa11nOnuK6WwU3dFxve4OV/FwNWrgyeNk0qHX0fPq5rzXb0yfe+M4vrp9ivqs/nzrDEZJF981cL9dv7qh3c7rYHo7GSZB/Ni1sd2Nji/LnZbs2d1K89GtHq395qd1eWG1l9WjcpvT42WrXHy6t19rFSu4aXQf8PCesvl48fDQkKNnmsyK/CIR9SLzlrfFFvZWl9a6Pn1tJ0lwvOwdzYut+059aTXo7bgfRuv+JH4+Hw/EsvdY7Dne5MZl9xfDLrVZu3fcTabWt7p3fWGPknXvcXD8cDWu9SR3ry+sj3X87fHR7njxuFwPlnN+32ON48duZzylLZsHo0ab3N6dL5+6lTI/dhOnVq95X74AtzR0mXHy/afhMjveykCSpRLBwKcCOWTOkBXTwBGIhUj6BAVYSHgmyOVsrt+cYuRz4n55MXwpI3FSLmMuE8xJCUfRO5VCvBhIYu4RCYv+tgIczl6Ms2wVShifCZ9Fp2V8hhKfqFcE2ZxgSRyEkYUFtRGkmVLkcJzQ0EOSscBEZGmTSKJNCHbU8jkJY5RQ6evisEUDKlcQgGyfMQELfWr7WToISnAo1dcIU3hQcSXlCyoDpXsoWar9BJQP1Ri/zJ/bbyFeILAS7KeMkmH4vWrWfmxBHJE0ElkrVZ3KhFFIEnQ5uL3ZBKvdWcyhAo8UBATw2JYxwIdGpLDQbWkcVNwmBFsMvqgoxqlHQxygU2XRszm0cVrWj5vFZtYy8Jmiq8IUkGGKgkDQZbaLs4IxQW0cBKsS0hJI00Kv/55VrqI0BMUCcriMoxeFDvWwGjNAPg4dxIAOrtYS0JKraRLmrqiEFIJAU6jK284ozfShhXkph336XSfZw76xQ/46BpliodICUBYhIRSnlQOiCEMUUItjvgK8f5dvSCRdk5Bxr+SBHmKrRJl6Cb9DoDN0MHcOswRlGJai/M5h83Kq2D9KPf304UBLfE6kzxzF+h7amd4zuN8H8rNffe/Jz29QF+iDlnZK3MG+dEztGhwiHAimmEBUSytLjPdSp+jtpd8nE/DJqXPLKSehQ7jC0OEsOnQYCEizmKfGC5gFclxgTrEFb/boMasVs/rJrFV3PN0xSW0Cu2KZcbUxvlTq2xQBB5OgDlHCUf2m7nXjUGvEVERj0NybrV8ME5i3scICsGEhwLyxe4aK3oSFdoqew8KCfLtkHgeSRgHZ06TuGpEF4StJ53vjKnOpX90WroB747c8XAscxARFgCjhcvUbWh8VYFV4buZgGwBLqaFgXwElpdgJyfgGuswim0IoCGOLDKhI851GqZuBA/Apb74YB9qUIKGME60pMAiYFHBSoqLhPhcbFkqoswVEiQhQ5zBzceiRVFU7/Gh6lCgYTf2UFVnYjJuSRmWj/Q04KI4cAFkocnYJofQU1nRewc9nyabuPRvoSnLTH0wqUmLylGSTOtsFBlluvDfM5u/yZcxM8eI4HXO+MmKWR5WlZPEfBtw/C/SZul2qBvqfFu4Y5CQbbeCCnTmg+wUWB2a2IquFZjtApfmKoMv9XZQZqICWlfkJ5gElbyYwixSVIifYpnmUl6i+LGTzDgigIWTT0z4bNP/PIBZE/nEKw/v8CN5AqGWy0whQtxMklpJTKwbZldBldlBtEU/hhLx7etwXs3WWwXRats7y+LU4x/t2f4OcIDaDQxN6iDXdEdZU5OSR9ZMylrWEXQnyy2+s0IaeTkUEf23gRAAqAVWYqNkXUHsGL0ZX5xedQb8EXgs/FKbicOv5AogIfQFR6G/ngPOHAhgRH26vKgKWFLDqSBQODvTdDp5Py2rHs9z9YzNS1FkP3Ku7pIu024UaC9d4gfs2p5GE248Ph7aeq7t7k867ZWyLxHf0Y4ODWIUSL019k4OEW4od4oL8II3N5nMM+EaY63MmX4SpqlAusrFIb0o0dOiCOjEcLKmzoGso6M2pRxWyTIlix2nuPn23G0qZTqCIiNjU3V5u1S1JjaP09koBggFfKY3B6feX8evHr38AqY3Hzw==" target="_blank">selection menu</a>: in this demo we'll add a menu, so that users can select which emoji to draw with rather than selecting them at random
+        </li>
+        <li>
+          <b>save button</b> (TBD)
+        </li>
+        <li>
+          <b>drawing interfaces</b> (TBD)
+        </li>
+      </ul>
+      
+      <p>
+        [INFORMATION ON CREATING PROJCTS + GIT] TBD
+      </p>
+      
+      <p>
+        Please share what you make with us, email us at <b>hi@netizen.org</b>, send us your netnet sharable sketch URL or your published URL, if you published your project to the Web.
+      </p>
+    </section>
+    
+  </body>
+</html>
