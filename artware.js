@@ -29,7 +29,9 @@ nn.get('#save').on('click', save)
 nn.get('#undo').on('click', undo)
 
 nn.get('#clear').on('click', () => {
-  nn.get('main').content(null)
+  const m = 'You sure you want to erase everything?'
+  const check = window.confirm(m)
+  if (check) nn.get('main').content(null)
 })
 
 nn.get('#notes').on('click', () => {
@@ -173,5 +175,7 @@ nn.on('pointercancel', release)
 nn.on('pointerleave', release)
 nn.get('main').on('pointerleave', release)
 nn.getAll('nav > *').forEach(e => e.on('click', release))
-nn.getAll('*').forEach(e => e.on('pointerover', info))
+nn.on('pointerover', info)
 nn.get('body').css('touch-action', 'none')
+
+nn.on('resize', () => console.log(nn.width))
